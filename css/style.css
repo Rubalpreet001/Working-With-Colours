@@ -1,0 +1,187 @@
+/* Lesson starts here */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+    background-color:#f9f9f9;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Poppins',sans-serif;
+}
+p,a,li{
+    font-family:'lato',sans-serif;
+}
+/*header*/
+header{
+    display: flex;
+    align-items: center;
+    height: 125px;
+    background-color: #f9f9f9;
+}
+header div{
+    width: auto;
+    height: 115px;
+    flex-grow: 1;
+}
+header div a img{
+    width: auto;
+    height: 100%;
+}
+header nav menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+}
+header nav menu li{
+    padding: 0px 10px;
+}
+header nav menu li a:link{
+    text-decoration: none;
+    color: #0e0e0e;
+}
+header nav menu li a:hover{
+    color: #0cb19d;
+}
+/*monochrome*/
+#mono-scheme{
+    width: auto;
+    min-height: 100vh;
+}
+.mono-header{
+    background-image: url("../img/mono-header.jpg");
+    background-size: cover;
+}
+.mono-header div:nth-child(1){
+    background-color: rgba(0,0,0,.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+.mono-header h4{
+    color: #f9f9f9;
+    font-size:52px;
+    margin-bottom: 70px;
+    letter-spacing: .25em;
+}
+.mono-header a{
+    margin: 0px 10px;
+    border: solid 4px #f9f9f9;
+    background-color: #0e0e0e;
+    color: #f9f9f9;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+.mono-btn{
+    flex-direction: row;
+}
+.mono-header a:hover{
+    border-color: #0e0e0e;
+}
+.mono-body{
+    background-color: #f9f9f9;
+    padding: 5%;
+    text-align: center;
+}
+.mono-body h5{
+    font-size: 28px;
+}
+.mono-body-row{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    justify-content: center;
+    padding: 5%;
+}
+.mono-body-row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mono-body-row div i{
+    font-size: 72px;
+}
+.mono-body-row div a{
+    text-decoration: none;
+    background-color: #f9f9f9;
+    color: #0e0e0e;
+    border: solid 4px #0e0e0e;
+    padding: 20px 40px;
+}
+.mono-body-row div h6{
+    font-size: 26px;
+}
+/* traidic*/
+.tri-header{
+    width: 100%;
+    height: 100vh;
+    background-color: #072D67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tri-header h4{
+    color: #f4f4f4;
+    font-size: 82px;
+    margin: 0px;
+}
+.tri-header h4 span{
+    color: #f9a825;
+    font-size: 98px;
+}
+.tri-body{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    text-align: center;
+}
+.tri-body div{
+    min-height: 350px;
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.tri-body div i{
+    font-size: 98px;
+}
+.tri-body div h5{
+    font-size: 42px;
+    margin: 15px;
+}
+.tri-body div:nth-child(1){
+    background-color: #f9a825;
+}
+.tri-body div:nth-child(1) a{
+    color: #f9a825;
+    background-color: #f4f4f4;
+    padding: 25px 50px;
+    border: solid 4px #f4f4f4;
+    text-decoration: none;
+}
+.tri-body div:nth-child(2){
+    background-color: #0cb19d;
+}
+.tri-body div:nth-child(2) a{
+    color: #0cb19d;
+    background-color: #f4f4f4;
+    padding: 25px 50px;
+    border: solid 4px #f4f4f4;
+    text-decoration: none;
+}
+.tri-body div:nth-child(3){
+    background-color: #f4511e;
+}
+.tri-body div:nth-child(3) a{
+    color: #f4511e;
+    background-color: #f4f4f4;
+    padding:25px 50pc;
+    border: solid 4px #f4f4f4;
+    text-decoration: none ;
+}
